@@ -1,0 +1,295 @@
+/*
+Theme Name: Numinous
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.main-navigation ul ul,
+.main-navigation ul ul ul {
+    display: none;
+}
+
+.main-navigation ul li:hover > ul {
+    left: auto;
+    right: 0;
+    display: block;
+}
+
+.main-navigation ul ul li:hover > ul {
+    left: auto;
+    right: 100%;
+    display: block;
+}
+
+.page-top ul {
+    float: left;
+}
+
+.page-top .breaking-news-link {
+    float: right;
+    margin-right: 0;
+    margin-left: 14px;
+}
+
+.ticker-wrapper.has-js {
+    float: right;
+}
+
+.page-top ul.social-media li:last-child {
+    margin-left: 0;
+}
+
+.site-branding {
+    float: right;
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.header-t .ad {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.main-navigation,
+.main-navigation li {
+    float: right;
+}
+
+.main-navigation li {
+    margin-left: 0;
+    margin-right: 45px;
+}
+
+.main-navigation li:first-child {
+    margin-right: 0;
+}
+
+.main-navigation ul {
+    padding: 0;
+}
+
+.header-b .form-section {
+    float: left;
+}
+
+.header-b .form-section .example {
+    left: 0;
+    right: auto;
+}
+
+.main-navigation ul ul {
+    text-align: right;
+}
+
+.featured-category .col-1,
+.featured-category .col-1,
+.featured-category .col-1 ul li {
+    float: right;
+}
+
+.featured-category .col-1 ul li {
+    padding-left: 0;
+    padding-right: 6px;
+}
+
+.top-news .col-1 {
+    float: right;
+}
+
+.top-news .post .image-holder .category {
+    left: auto;
+    right: 3%;
+}
+
+.top-news .col-1.lists .post-thumbnail,
+.top-news .col-1.lists .right-text,
+.top-news .col-1 .post .entry-meta .posted-on {
+    float: right;
+}
+
+.top-news .col-1 .post .entry-meta .comment {
+    float: left;
+}
+
+.top-news .col-1 .post .entry-meta span .fa {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+#primary .section-title::after {
+    left: auto;
+    right: 0;
+}
+
+.world-section,
+.fashion-section {
+    float: right;
+}
+
+.site-content #primary .post .entry-meta .fa {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.site-content #primary .post .entry-meta span,
+.widget.widget_numinous_popular_post ul li .entry-meta span {
+    border-left: 0;
+    padding-left: 0;
+    border-right: 1px solid #cecece;
+    padding-right: 10px;
+}
+
+.site-content #primary .post .entry-meta span:first-child,
+.widget.widget_numinous_popular_post ul li .entry-meta span:first-child {
+    border-right: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.site-content #primary .world-section ul li .post-thumbnail,
+.site-content #primary .fashion-section ul li .post-thumbnail,
+.site-content #primary .sport-section ul li .post-thumbnail {
+    float: right;
+    margin-right: 0;
+    margin-left: 18px;
+}
+
+.site-content #primary .health-section ul li .post-thumbnail,
+.site-content #primary .more-news-section ul li .post-thumbnail {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.site-content #primary .sport-section .col-1 {
+    float: right;
+}
+
+.widget.widget_numinous_recent_post ul li .post-thumbnail,
+.widget.widget_numinous_editor_picks ul li .post-thumbnail {
+    float: right;
+    margin-right: 0;
+    margin-left: 18px;
+}
+
+.widget ul li {
+    text-align: right;
+}
+
+.widget.widget_numinous_recent_post ul li .entry-meta .fa,
+.widget.widget_numinous_editor_picks ul li .entry-meta .fa,
+.widget.widget_numinous_popular_post ul li .entry-meta span .fa {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.site-content #primary .post .entry-meta span, .widget.widget_numinous_popular_post ul li .entry-meta span{
+	display: inline-block;
+}
+
+.widget.widget_numinous_social_links ul li{
+	float: right;
+}
+
+.footer-b .site-info .copyright{
+	float: right;
+}
+
+.footer-b .site-info .by{
+	float: left;
+}
+
+.widget.widget_numinous_social_links ul li:first-child{
+	margin-right: 0;
+}
+
+.site-footer .column{
+	float: right;
+}
+
+#primary .post .entry-content form .radio-section li, #primary .page .entry-content form .radio-section li{
+	float: right;
+}
+
+.avatar.photo{
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.similar-posts .post,
+.comment-content,
+.comment-author.vcard{
+	float: right;
+}
+
+.comment-content{
+	margin-left: 0;
+	margin-right: 100px;
+}
+
+.reply a{
+	margin-left: 0;
+	margin-right: 100px;
+}
+
+.site-content .post .entry-content blockquote{
+	background-position: 100% 0;
+	padding-left: 0;
+	padding-right: 34px;
+}
+
+#primary .post .entry-content ul li, #primary .page .entry-content ul li{
+	background-position: 100% 12px;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.comment-metadata a{
+	display: inline-block;
+}
+
+.comment-body .fn{
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.comments-area ol{
+	padding-right: 0;
+}
+
+.comments-area ol ol li{
+	padding-left: 0;
+	padding-right: 40px;
+}
+
+.page-title{
+
+	float: right;
+}
+
+#crumbs{
+	float: left;
+}
+
+#crumbs a{
+	display: inline-block;
+}
+
+.main-navigation ul ul .menu-item-has-children:after{
+	content: "\f105";
+	left: 10px;
+	right: auto;
+	transform: rotateY(180deg);
+}

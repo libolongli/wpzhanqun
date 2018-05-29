@@ -68,7 +68,6 @@ define('NONCE_SALT',       '&k71X0[7WmDyd|[=qs7y(JJwPGoE.J,z)EvTInVW,+JS!Ss9>c52
 //不同域名使用不同后缀
 include 'wp-domain.php';
 $table_prefix = str_replace('.','',getBaseDomain($_SERVER['HTTP_HOST'])).'_';
-$table_prefix = 'shenqicom_';
 // if(strpos($_SERVER['HTTP_HOST'], 'dick')){
 // 	$table_prefix  = 'wpdickcom_';
 // }else{
