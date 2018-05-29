@@ -1,0 +1,32 @@
+.promo-banner{
+	display: none;
+}
+
+.apmag-themeoption .metabox-holder {
+    background: none repeat scroll 0 0 #DEDEDE;
+    float: left;
+    min-height: 576px;
+    padding: 2.2% !important;
+    width: 57% !important;
+    margin-right: 15px;
+}
+.view-features h3 {
+    background: #555 none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px 0 0;
+    padding: 10px 11px 10px 13px;
+    width: 95%;
+}
+
+.spmag-promo-banner{
+    width: 19%;
+    float: right;
+}
+
+.spmag-promo-banner .banner-image{
+	width: 100%;
+}
+.spmag-promo-banner .banner-image img {
+	width: 100%;
+}

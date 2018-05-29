@@ -1,0 +1,22 @@
+<wpml-config>
+<admin-texts>
+<key name="accesspress-mag-theme">
+    <key name="logo_alt" />
+    <key name="logo_title" />
+    <key name="mag_footer_copyright" />
+    <key name="trans_you_are_here" />
+    <key name="trans_editor_picks" />
+    <key name="trans_home" />
+    <key name="trans_search_results_for" />
+    <key name="trans_tagged" />
+    <key name="trans_next_article" />
+    <key name="trans_previous_article" />
+    <key name="trans_older_posts" />
+    <key name="trans_newer_posts" />
+    <key name="trans_advertisement" />
+    <key name="trans_search_button" />
+    <key name="trans_search_placeholder" />
+    <key name="trans_top_arrow" />
+</key>
+</admin-texts>
+</wpml-config>
